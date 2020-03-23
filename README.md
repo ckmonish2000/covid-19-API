@@ -1,6 +1,6 @@
 # covid-19-API
 
-*A Simple combination Of Web Scrapping and Backend Development Which Provides Us all the Necessary details Regarding Number Of Cases Based On The Country.*
+*A Simple combination Of Web Scrapping and Backend Development Which Provides Us all the Necessary details Regarding Number Of Covid-19 Cases As a API. *
 ---
 
 ## Project-Setup
@@ -18,4 +18,7 @@ you can install them from the **Terminal** using the following command
 *Naviagte to the file where the project is on the **Terminal** *
 *Once you're there **Run** *
 > python app.py
+
+## Index Image Of The Project
+![Image](https://ibb.co/zPMW6b0)
 
