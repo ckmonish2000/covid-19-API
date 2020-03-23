@@ -1,15 +1,23 @@
-from flask import Flask,jsonify,request
+from flask import Flask,jsonify,request,render_template
 from scraper import scrape
+from totalscrape import totalscrape
 
 app=Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Welcome To Covid-19-API-Generator"
+    return render_template('index.htm')
+
+
+@app.route('/total')
+def total():
+    a=totalscrape()
+    return jsonify({"head":"from covid-19-generator","status":200,"body":a})
+
 
 
 @app.route('/all')
-def total():
+def all():
     a=scrape()   
     return jsonify({"head":"from covid-19-generator","status":200,"body":a})
 
@@ -30,7 +38,7 @@ def test(ctr):
 
         
 
-    return "works"
+    
 
 
 
