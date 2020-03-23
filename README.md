@@ -1,6 +1,6 @@
 # covid-19-API
 
-*A Simple combination Of Web Scrapping and Backend Development Which Provides Us all the Necessary details Regarding Number Of Covid-19 Cases As a API. *
+A Simple combination Of Web Scrapping and Backend Development Which Provides Us all the Necessary details Regarding Number Of Covid-19 Cases As a API. 
 ---
 
 ## Project-Setup
