@@ -4,6 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid-19-API-Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Lobster', cursive;
+            color: white;
+            letter-spacing: 0.5px;
+            
+                       
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .first-block{
+            padding: 30px;
+            height: 120px;
+            background:#CD5C5C ;
+            color:white;
+            width: 100%;
+        }
+        p{
+            font-size: 20px;
+            font-family:'Baloo 2', cursive; 
+            
+        }
+        .second-block{
+            background: #F08080;
+            padding: 10px;
+            width: 100%;
+            height: 568px;
+        }
+        .route{
+            margin: 30px;
+            border: 1px white solid;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .route:hover{
+            box-shadow: 10px 5px white;            
+            border: 1px white double;
+            background: #CD5C5C ;
+            animation-delay: 0.3s;
+
+        }
+        h3{
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        h2{
+            
+                text-shadow: 2px 2px 4px #000000;
+            
+    
+        }
+        
+    </style>
 </head>
 <body>
     <div class="container">
@@ -14,21 +75,21 @@
         </div>
 
         <div class="second-block">
-            <h2>routes to make API calls</h2>
+            <h2 style="margin-left: 30px;margin-top:10px">routes to make API calls</h2>
             
-            <div class="first-route">
+            <div class="route">
                 <h3>Get Total API </h3>
                 <p>provides u with the total number of covid-19 patiens,deaths and recovered</p>
                 <a href="/total">check it out</a>
             </div>
 
-            <div class="second-route">
+            <div class="route">
                 <h3>Get API for all the countries</h3>
                 <p>provides u with the  number of covid-19 patiens,deaths and recovered for all countries</p>
                 <a href="/all">check it out</a>
             </div>
 
-            <div class="third-route">
+            <div class="route">
                 <h3>Get API for based on countries </h3>
                 <p>provides u with the total number of covid-19 patiens,deaths and recovered for specific countries</p>
                 <p><code>The link starts with /country/CountryName</code></the> </p>
