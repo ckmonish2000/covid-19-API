@@ -19,6 +19,3 @@ you can install them from the **Terminal** using the following command
 *Once you're there **Run** *
 > python app.py
 
-## Index Image Of The Project
-![Image](https://ibb.co/zPMW6b0)
-
